@@ -1,0 +1,58 @@
+{
+  "uri" : "local://kWfNMbEZ2K8J143Vfj2hm0/",
+  "name" : "common-core",
+  "category" : "",
+  "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
+  "pname" : "Repository Management (Folder)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_repo_repoUri",
+    "expr" : {
+      "str" : "/common/core/"
+    }
+  }, {
+    "name" : "_repo_gitHubRepo",
+    "expr" : {
+      "str" : "core"
+    }
+  }, {
+    "name" : "_repo_gitHubBranch",
+    "expr" : {
+      "str" : "master"
+    }
+  }, {
+    "name" : "_repo_gitHubUsername",
+    "expr" : {
+      "str" : "conceptjs"
+    }
+  }, {
+    "name" : "_repo_lastSyncAction",
+    "expr" : {
+      "str" : "push"
+    }
+  }, {
+    "name" : "_repo_lastSyncTime",
+    "expr" : {
+      "json" : "2015-02-11T21:15:02.054Z"
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
+      "conceptName" : "Repo Management Lambda",
+      "bindings" : {
+        "repoUri" : "_repo_repoUri",
+        "gitHubRepo" : "_repo_gitHubRepo",
+        "gitHubBranch" : "_repo_gitHubBranch",
+        "gitHubUsername" : "_repo_gitHubUsername",
+        "lastSyncAction" : "_repo_lastSyncAction",
+        "lastSyncTime" : "_repo_lastSyncTime"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "repo"
+  } ],
+  "isLambda" : false
+}

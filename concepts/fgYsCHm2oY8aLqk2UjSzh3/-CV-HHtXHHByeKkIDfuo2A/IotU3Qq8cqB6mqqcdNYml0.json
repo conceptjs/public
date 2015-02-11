@@ -1,0 +1,28 @@
+{
+  "uri" : "local://IotU3Qq8cqB6mqqcdNYml0/",
+  "name" : "common-emovera",
+  "category" : "",
+  "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
+  "pname" : "Repository Management (Folder)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_repo_repoUri",
+    "expr" : {
+      "str" : "/common/emovera/"
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
+      "conceptName" : "Repo Management Lambda",
+      "bindings" : {
+        "repoUri" : "_repo_repoUri"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "repo"
+  } ],
+  "isLambda" : false
+}
