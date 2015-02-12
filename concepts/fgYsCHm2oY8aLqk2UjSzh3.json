@@ -28,7 +28,6 @@
     "name" : "repo",
     "expr" : {
       "concept" : "/common/core/dikjRMQUWrB_rK4hvxvxP8/",
-      "conceptName" : "Repo Root Lambda",
       "bindings" : {
         "repoUri" : "_repo_repoUri"
       }

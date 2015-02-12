@@ -3,7 +3,7 @@
   "name" : "IMG_0848.JPG",
   "category" : "",
   "parent" : "local://fgYsCHm2oY8aLqk2UjSzh3/",
-  "pname" : "public",
+  "pname" : "User Binary Resources",
   "flags" : "U",
   "lvars" : [ ],
   "vars" : [ {
@@ -30,7 +30,7 @@
     "name" : "resource",
     "expr" : {
       "concept" : "/common/core/BLTv0pGnFoAPG4Q4YV8KS1/",
-      "conceptName" : "Attachment Resource",
+      "conceptName" : "Image Resource",
       "bindings" : {
         "type" : "type",
         "attachmentLink" : "attachmentLink",

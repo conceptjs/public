@@ -30,7 +30,7 @@
     "name" : "resource",
     "expr" : {
       "concept" : "/common/core/BLTv0pGnFoAPG4Q4YV8KS1/",
-      "conceptName" : "Attachment Resource",
+      "conceptName" : "Image Resource",
       "bindings" : {
         "type" : "type",
         "attachmentLink" : "attachmentLink",

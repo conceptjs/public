@@ -1,14 +1,15 @@
 {
-  "uri" : "local://Z69UROgdPa8iYKMUUh6Xf0/",
-  "name" : "common-public",
+  "uri" : "local://OeBdCnSTbEBbTqqG5UCVM4/",
+  "name" : "common-testGithub",
   "category" : "",
   "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
+  "pname" : "Repository Management (Folder)",
   "flags" : "U",
   "lvars" : [ ],
   "vars" : [ {
     "name" : "_repo_repoUri",
     "expr" : {
-      "str" : "/common/public/"
+      "str" : "/common/testGithub/"
     }
   }, {
     "name" : "_repo_gitHubUsername",
@@ -18,7 +19,7 @@
   }, {
     "name" : "_repo_gitHubRepo",
     "expr" : {
-      "str" : "public"
+      "str" : "testGithub-1"
     }
   }, {
     "name" : "_repo_gitHubBranch",
@@ -26,24 +27,32 @@
       "str" : "master"
     }
   }, {
-    "name" : "_repo_lastSyncAction",
+    "name" : "_repo_forkGitHubUsername",
     "expr" : {
-      "str" : "push"
+      "str" : "taozhan2014"
+    }
+  }, {
+    "name" : "_repo_forkGitHubRepo",
+    "expr" : {
+      "str" : "testGithub"
     }
   }, {
     "name" : "repo",
     "expr" : {
       "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
+      "conceptName" : "Repo Management Lambda",
       "bindings" : {
         "repoUri" : "_repo_repoUri",
         "gitHubUsername" : "_repo_gitHubUsername",
         "gitHubRepo" : "_repo_gitHubRepo",
         "gitHubBranch" : "_repo_gitHubBranch",
-        "lastSyncAction" : "_repo_lastSyncAction"
+        "forkGitHubUsername" : "_repo_forkGitHubUsername",
+        "forkGitHubRepo" : "_repo_forkGitHubRepo"
       }
     }
   } ],
   "isas" : [ {
     "var" : "repo"
-  } ]
+  } ],
+  "isLambda" : false
 }

@@ -3,7 +3,6 @@
   "name" : "common_IMG_0868.JPG",
   "category" : "",
   "parent" : "local://fgYsCHm2oY8aLqk2UjSzh3/",
-  "pname" : "public",
   "flags" : "U",
   "lvars" : [ ],
   "vars" : [ {
@@ -36,7 +35,6 @@
     "name" : "resource",
     "expr" : {
       "concept" : "/common/core/BLTv0pGnFoAPG4Q4YV8KS1/",
-      "conceptName" : "Attachment Resource",
       "bindings" : {
         "content" : "_resource_content",
         "type" : "type",
@@ -48,6 +46,5 @@
   } ],
   "isas" : [ {
     "var" : "resource"
-  } ],
-  "isLambda" : false
+  } ]
 }
