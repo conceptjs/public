@@ -3,6 +3,7 @@
   "name" : "common-public",
   "category" : "",
   "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
+  "pname" : "Repository Management (Folder)",
   "flags" : "U",
   "lvars" : [ ],
   "vars" : [ {
@@ -31,19 +32,27 @@
       "str" : "push"
     }
   }, {
+    "name" : "_repo_lastSyncTime",
+    "expr" : {
+      "str" : "2015-02-12T22:34:03.789Z"
+    }
+  }, {
     "name" : "repo",
     "expr" : {
       "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
+      "conceptName" : "Repo Management Lambda",
       "bindings" : {
         "repoUri" : "_repo_repoUri",
         "gitHubUsername" : "_repo_gitHubUsername",
         "gitHubRepo" : "_repo_gitHubRepo",
         "gitHubBranch" : "_repo_gitHubBranch",
-        "lastSyncAction" : "_repo_lastSyncAction"
+        "lastSyncAction" : "_repo_lastSyncAction",
+        "lastSyncTime" : "_repo_lastSyncTime"
       }
     }
   } ],
   "isas" : [ {
     "var" : "repo"
-  } ]
+  } ],
+  "isLambda" : false
 }
