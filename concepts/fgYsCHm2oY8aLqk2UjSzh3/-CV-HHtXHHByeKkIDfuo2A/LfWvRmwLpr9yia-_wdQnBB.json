@@ -3,13 +3,17 @@
   "name" : "common-test3",
   "category" : "",
   "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
-  "pname" : "Repository Management (Folder)",
   "flags" : "U",
   "lvars" : [ ],
   "vars" : [ {
     "name" : "_repo_repoUri",
     "expr" : {
       "str" : "/common/test3/"
+    }
+  }, {
+    "name" : "_repo_gitHubUsername",
+    "expr" : {
+      "str" : "conceptjs"
     }
   }, {
     "name" : "_repo_gitHubRepo",
@@ -22,11 +26,6 @@
       "str" : "master"
     }
   }, {
-    "name" : "_repo_gitHubUsername",
-    "expr" : {
-      "str" : "conceptjs"
-    }
-  }, {
     "name" : "_repo_lastSyncAction",
     "expr" : {
       "str" : "push"
@@ -34,18 +33,18 @@
   }, {
     "name" : "_repo_lastSyncTime",
     "expr" : {
-      "json" : "2015-02-10T21:59:32.865Z"
+      "str" : "2015-02-10T21:59:32.865Z",
+      "strEditMode" : ""
     }
   }, {
     "name" : "repo",
     "expr" : {
       "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
-      "conceptName" : "Repo Management Lambda",
       "bindings" : {
         "repoUri" : "_repo_repoUri",
+        "gitHubUsername" : "_repo_gitHubUsername",
         "gitHubRepo" : "_repo_gitHubRepo",
         "gitHubBranch" : "_repo_gitHubBranch",
-        "gitHubUsername" : "_repo_gitHubUsername",
         "lastSyncAction" : "_repo_lastSyncAction",
         "lastSyncTime" : "_repo_lastSyncTime"
       }
@@ -53,6 +52,5 @@
   } ],
   "isas" : [ {
     "var" : "repo"
-  } ],
-  "isLambda" : false
+  } ]
 }
