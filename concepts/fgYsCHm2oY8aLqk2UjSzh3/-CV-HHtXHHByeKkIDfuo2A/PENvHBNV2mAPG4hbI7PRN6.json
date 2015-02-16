@@ -1,6 +1,6 @@
 {
-  "uri" : "local://W9lcMiCeEz84ha_i2CRIK2/",
-  "name" : "common-test Mgt Concept",
+  "uri" : "local://PENvHBNV2mAPG4hbI7PRN6/",
+  "name" : "common-default Mgt Concept",
   "category" : "",
   "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
   "pname" : "Repository Management (Folder)",
@@ -9,7 +9,7 @@
   "vars" : [ {
     "name" : "_repo_repoUri",
     "expr" : {
-      "str" : "/common/test/"
+      "str" : "/common/default/"
     }
   }, {
     "name" : "repo",

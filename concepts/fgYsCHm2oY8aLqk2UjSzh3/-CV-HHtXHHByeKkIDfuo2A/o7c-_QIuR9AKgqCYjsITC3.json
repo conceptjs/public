@@ -1,6 +1,6 @@
 {
-  "uri" : "local://gR-chfHGYN8sxqCroSSPG0/",
-  "name" : "common-testGithub2 Mgt Concept",
+  "uri" : "local://o7c-_QIuR9AKgqCYjsITC3/",
+  "name" : "common-univ-examples-sandbox Mgt Concept",
   "category" : "",
   "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
   "pname" : "Repository Management (Folder)",
@@ -9,7 +9,7 @@
   "vars" : [ {
     "name" : "_repo_repoUri",
     "expr" : {
-      "str" : "/common/testGithub2/"
+      "str" : "/common/univ-examples-sandbox/"
     }
   }, {
     "name" : "_repo_gitHubUsername",
@@ -19,27 +19,22 @@
   }, {
     "name" : "_repo_gitHubRepo",
     "expr" : {
-      "str" : "testGithub2"
+      "str" : "univ-examples"
     }
   }, {
-    "name" : "_repo_forkGitHubUsername",
+    "name" : "_repo_gitHubBranch",
     "expr" : {
-      "str" : "taozhan2014"
-    }
-  }, {
-    "name" : "_repo_forkGitHubRepo",
-    "expr" : {
-      "str" : "testGithub2"
+      "str" : "sandbox-branch"
     }
   }, {
     "name" : "_repo_lastSyncAction",
     "expr" : {
-      "str" : "push"
+      "str" : "pull"
     }
   }, {
     "name" : "_repo_lastSyncTime",
     "expr" : {
-      "str" : "2015-02-14T00:22:03.721Z"
+      "str" : "2015-02-16T23:16:16.597Z"
     }
   }, {
     "name" : "repo",
@@ -50,8 +45,7 @@
         "repoUri" : "_repo_repoUri",
         "gitHubUsername" : "_repo_gitHubUsername",
         "gitHubRepo" : "_repo_gitHubRepo",
-        "forkGitHubUsername" : "_repo_forkGitHubUsername",
-        "forkGitHubRepo" : "_repo_forkGitHubRepo",
+        "gitHubBranch" : "_repo_gitHubBranch",
         "lastSyncAction" : "_repo_lastSyncAction",
         "lastSyncTime" : "_repo_lastSyncTime"
       }

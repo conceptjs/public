@@ -1,6 +1,6 @@
 {
   "uri" : "local://Z69UROgdPa8iYKMUUh6Xf0/",
-  "name" : "common-public",
+  "name" : "common-public Mgt Concept",
   "category" : "",
   "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
   "pname" : "Repository Management (Folder)",
@@ -34,7 +34,12 @@
   }, {
     "name" : "_repo_lastSyncTime",
     "expr" : {
-      "str" : "2015-02-13T00:03:57.030Z"
+      "str" : "2015-02-13T00:22:06.241Z"
+    }
+  }, {
+    "name" : "_repo_imageUrl",
+    "expr" : {
+      "str" : "/resourcelocal://PCSi16DQPZ8C64xhvzWXiD/"
     }
   }, {
     "name" : "repo",
@@ -47,7 +52,8 @@
         "gitHubRepo" : "_repo_gitHubRepo",
         "gitHubBranch" : "_repo_gitHubBranch",
         "lastSyncAction" : "_repo_lastSyncAction",
-        "lastSyncTime" : "_repo_lastSyncTime"
+        "lastSyncTime" : "_repo_lastSyncTime",
+        "imageUrl" : "_repo_imageUrl"
       }
     }
   } ],

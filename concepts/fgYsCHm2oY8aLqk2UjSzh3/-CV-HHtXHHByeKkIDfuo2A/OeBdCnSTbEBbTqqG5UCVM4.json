@@ -1,6 +1,6 @@
 {
   "uri" : "local://OeBdCnSTbEBbTqqG5UCVM4/",
-  "name" : "common-testGithub",
+  "name" : "common-testGithub Mgt Concept",
   "category" : "",
   "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
   "pname" : "Repository Management (Folder)",
@@ -37,6 +37,16 @@
       "str" : "testGithub"
     }
   }, {
+    "name" : "_repo_lastSyncAction",
+    "expr" : {
+      "str" : "pull"
+    }
+  }, {
+    "name" : "_repo_lastSyncTime",
+    "expr" : {
+      "str" : "2015-02-13T16:45:26.858Z"
+    }
+  }, {
     "name" : "repo",
     "expr" : {
       "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
@@ -47,7 +57,9 @@
         "gitHubRepo" : "_repo_gitHubRepo",
         "gitHubBranch" : "_repo_gitHubBranch",
         "forkGitHubUsername" : "_repo_forkGitHubUsername",
-        "forkGitHubRepo" : "_repo_forkGitHubRepo"
+        "forkGitHubRepo" : "_repo_forkGitHubRepo",
+        "lastSyncAction" : "_repo_lastSyncAction",
+        "lastSyncTime" : "_repo_lastSyncTime"
       }
     }
   } ],

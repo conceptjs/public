@@ -20,16 +20,16 @@
       }
     }
   }, {
-    "name" : "_repo_repoUri",
+    "name" : "_repo_holder",
     "expr" : {
-      "str" : "/common/public/"
+      "str" : ""
     }
   }, {
     "name" : "repo",
     "expr" : {
       "concept" : "/common/core/dikjRMQUWrB_rK4hvxvxP8/",
       "bindings" : {
-        "repoUri" : "_repo_repoUri"
+        "holder" : "_repo_holder"
       }
     }
   } ],

@@ -1,6 +1,6 @@
 {
-  "uri" : "local://gR-chfHGYN8sxqCroSSPG0/",
-  "name" : "common-testGithub2 Mgt Concept",
+  "uri" : "local://MQvz-9Nsi98ZSq6muwO4_8/",
+  "name" : "common-testGitHubRepo3 Mgt Concept",
   "category" : "",
   "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
   "pname" : "Repository Management (Folder)",
@@ -9,27 +9,22 @@
   "vars" : [ {
     "name" : "_repo_repoUri",
     "expr" : {
-      "str" : "/common/testGithub2/"
+      "str" : "/common/testGitHubRepo3/"
+    }
+  }, {
+    "name" : "_repo_gitHubRepo",
+    "expr" : {
+      "str" : "testGithubRepo3"
+    }
+  }, {
+    "name" : "_repo_gitHubBranch",
+    "expr" : {
+      "str" : "master"
     }
   }, {
     "name" : "_repo_gitHubUsername",
     "expr" : {
       "str" : "conceptjs"
-    }
-  }, {
-    "name" : "_repo_gitHubRepo",
-    "expr" : {
-      "str" : "testGithub2"
-    }
-  }, {
-    "name" : "_repo_forkGitHubUsername",
-    "expr" : {
-      "str" : "taozhan2014"
-    }
-  }, {
-    "name" : "_repo_forkGitHubRepo",
-    "expr" : {
-      "str" : "testGithub2"
     }
   }, {
     "name" : "_repo_lastSyncAction",
@@ -39,7 +34,7 @@
   }, {
     "name" : "_repo_lastSyncTime",
     "expr" : {
-      "str" : "2015-02-14T00:22:03.721Z"
+      "str" : "2015-02-13T15:40:22.581Z"
     }
   }, {
     "name" : "repo",
@@ -48,10 +43,9 @@
       "conceptName" : "Repo Management Lambda",
       "bindings" : {
         "repoUri" : "_repo_repoUri",
-        "gitHubUsername" : "_repo_gitHubUsername",
         "gitHubRepo" : "_repo_gitHubRepo",
-        "forkGitHubUsername" : "_repo_forkGitHubUsername",
-        "forkGitHubRepo" : "_repo_forkGitHubRepo",
+        "gitHubBranch" : "_repo_gitHubBranch",
+        "gitHubUsername" : "_repo_gitHubUsername",
         "lastSyncAction" : "_repo_lastSyncAction",
         "lastSyncTime" : "_repo_lastSyncTime"
       }
